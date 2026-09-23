@@ -1,0 +1,7 @@
+{
+  "name": "UT1_Practica_DanielMartinezAlcaide",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
