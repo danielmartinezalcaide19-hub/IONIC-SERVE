@@ -16,3 +16,50 @@
     </ion-tab-button>
   </ion-tab-bar>
 </ion-tabs>
+
+
+
+
+
+
+
+```html
+<ion-header>
+  <ion-toolbar>
+    <ion-title>BandZone</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="inicio">
+
+    <h1>🎸 BandZone</h1>
+
+    <p>
+      Descubre algunas de las bandas de música más conocidas
+      y disfruta de su historia y sus canciones.
+    </p>
+
+    <ion-card>
+      <img [src]="imagenPrincipal" alt="Banda de música">
+
+      <ion-card-header>
+        <ion-card-title>Bienvenido a BandZone</ion-card-title>
+        <ion-card-subtitle>El mundo de las bandas</ion-card-subtitle>
+      </ion-card-header>
+
+      <ion-card-content>
+        Explora diferentes bandas, géneros musicales y grupos
+        destacados.
+      </ion-card-content>
+
+      <ion-button expand="block" (click)="mostrarMensaje()">
+        Descubrir bandas
+      </ion-button>
+    </ion-card>
+
+  </div>
+
+</ion-content>
+```

@@ -1,17 +1,42 @@
-<ion-header [translucent]="true">
+```html
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+    <ion-title>Agrupaciones Musicales</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <div class="inicio">
+
+    <h1>🇪🇸 Agrupaciones Musicales de España</h1>
+
+    <p>
+      Descubre diferentes agrupaciones musicales españolas,
+      sus estilos y la música que representan.
+    </p>
+
+    <ion-card>
+
+      <img [src]="imagenPrincipal" alt="Agrupación musical">
+
+      <ion-card-header>
+        <ion-card-title>La música de España</ion-card-title>
+        <ion-card-subtitle>Bandas y agrupaciones musicales</ion-card-subtitle>
+      </ion-card-header>
+
+      <ion-card-content>
+        Conoce agrupaciones musicales de diferentes lugares de España
+        y descubre la variedad de estilos musicales que existen.
+      </ion-card-content>
+
+      <ion-button expand="block" (click)="mostrarMensaje()">
+        Descubrir agrupaciones
+      </ion-button>
+
+    </ion-card>
+
+  </div>
+
 </ion-content>
+```
