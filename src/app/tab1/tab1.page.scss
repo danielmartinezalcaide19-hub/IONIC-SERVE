@@ -4,12 +4,14 @@
 }
 
 h1 {
-  font-size: 28px;
+  font-size: clamp(24px, 5vw, 28px);
   font-weight: 700;
+  line-height: 1.25;
+  margin: 8px 0 12px;
 }
 
 .inicio > p {
-  color: var(--ion-color-medium-shade);
+  color: var(--bandzone-texto-secundario);
   line-height: 1.6;
   margin-bottom: 24px;
 }
@@ -19,5 +21,5 @@ ion-card {
 }
 
 ion-card img {
-  height: 240px;
+  height: clamp(180px, 40vw, 240px);
 }

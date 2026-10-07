@@ -1,20 +1,35 @@
 ion-list {
+  background: var(--bandzone-tarjeta);
   max-width: 720px;
   margin: 0 auto;
-  border-radius: 16px;
+  padding: 0;
+  border: 1px solid var(--bandzone-borde);
+  border-radius: 12px;
   overflow: hidden;
 }
 
 ion-item {
+  --background: var(--bandzone-tarjeta);
+  --color: var(--ion-text-color);
+  --border-color: var(--bandzone-borde);
+  --padding-start: 16px;
+  --inner-padding-end: 16px;
   --padding-top: 10px;
   --padding-bottom: 10px;
 }
 
+ion-item:last-child {
+  --border-width: 0;
+}
+
 ion-label h2 {
+  font-size: 18px;
   font-weight: 600;
   margin-bottom: 6px;
 }
 
 ion-label p {
+  color: var(--bandzone-texto-secundario);
+  font-size: 14px;
   line-height: 1.5;
 }
