@@ -1,0 +1,23 @@
+.inicio {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.inicio > p {
+  color: var(--ion-color-medium-shade);
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+ion-card {
+  margin: 0;
+}
+
+ion-card img {
+  height: 240px;
+}
